@@ -1,0 +1,63 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class ReceptenTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('recepten')->insert([
+	"name" => "Pasta carbonara"
+        "src" => "/img/1.png",
+        "ingredients" => "400 gr spaghetti, 200 gr gerookte spekblokjes of reepjes, 2 teentjes knoflook, Takje verse peterselie, 100 gr parmezaanse kaas (geraspt), 3 eieren, peper en zout",
+        "description" => "",
+      ]);
+
+      DB::table('recepten')->insert([
+        "src" => '/img/1.png',
+        "ingredients" => "",
+        "description" => "",
+      ]);
+
+      DB::table('recepten')->insert([
+        "src" => '/img/1.png',
+        "ingredients" => "",
+        "description" => "",
+      ]);
+
+      DB::table('recepten')->insert([
+        "src" => '/img/1.png',
+        "ingredients" => "",
+        "description" => "",
+      ]);
+
+      DB::table('recepten')->insert([
+        "src" => '/img/1.png',
+        "ingredients" => "",
+        "description" => "",
+      ]);
+
+      DB::table('recepten')->insert([
+        "src" => '/img/1.png',
+        "ingredients" => "",
+        "description" => "",
+      ]);
+
+      DB::table('recepten')->insert([
+        "src" => '/img/1.png',
+        "ingredients" => "",
+        "description" => "",
+      ]);
+
+      DB::table('recepten')->insert([
+        "src" => '/img/1.png',
+        "ingrredients" => "",
+        "desription" => "",
+      ]);
+    }
+}
